@@ -1,0 +1,171 @@
+*{
+    user-select: none;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../Component/img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: 20% 30% ;
+    background-color: #3f84e6;
+    position: relative;
+    height: 115px;
+}
+
+.newstext{
+    margin-left: 20px;
+}
+
+.newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffffde;
+}
+
+.form{
+    display: flex;
+    width: 40% ;
+    margin-right: 40px;
+
+}
+
+.newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 80%;    
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 30%;    
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.mean-end{
+    background-color: rgba(0, 255, 255, 0.212);
+}
+
+.finish-line{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.finish-line .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.Company-endline-icon{
+    font-size: xx-large;
+    margin: 30px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-size: 200%;
+    color: rgb(241, 47, 13);
+    text-shadow: 2px 2px 5px rgba(13, 0, 255, 0.918);
+    font-style: oblique;
+}
+
+.finish-line h3{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.finish-line p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.finish-line a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.follow-icons {
+    width: 180px;
+    height: 25%;
+    display: flex;
+    justify-content: first baseline;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.follow-icons .fb:hover{
+    color: #2875df;
+}
+
+.follow-icons .ig:hover{
+    color: #2875df;
+}
+
+.follow-icons .tw:hover{
+    color: #2875df;
+}
+
+.follow-icons .yt:hover{
+    color: #2875df;
+}
+
+.finish-line a:hover{
+    color: #2875df;
+}
+
+.follow-icons div {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.col-3-row img{
+    width: 170px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.copy-right{
+    width: 100%;
+    text-align: center;
+}
+
+
+

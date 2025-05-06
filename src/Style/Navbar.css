@@ -1,0 +1,170 @@
+*{
+    user-select: none;
+}
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13vh;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 50000;
+}
+
+.Company-icon {
+    padding-left: 20px;
+}
+
+.nav-icon {
+    width: 180px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.person{
+    color: rgba(1, 0, 0, 0.765);
+}
+
+.person:hover{
+    color: rgb(22, 86, 206);
+}
+
+.heart-fill{
+    color: rgba(1, 0, 0, 0.765);
+}
+
+.heart-fill:hover{
+    color: rgb(22, 86, 206);
+   }
+
+.cart-pg{
+    color: rgba(1, 0, 0, 0.765);
+}
+
+.cart-pg:hover{
+    color: rgb(22, 86, 206);
+ }
+
+.nav-icon div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.person :active{
+    transition: 0.2s;
+    color: red;
+}
+
+.heart-fill :active{
+    transition: 0.2s;
+    color: red;
+}
+
+.cart-pg :active{
+    transition: 0.2s;
+    color: red;
+}
+
+@media screen and (max-width : 767px) {
+
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 500000;
+    }
+    
+    .Company-icon img{
+        padding-left: 0.2rem;
+        height: 6rem;
+    }
+    
+    .nav-icon {
+     padding: 1.5rem;
+     margin-right: -1.5rem;
+    }
+      
+}
+    
+@media screen and (min-width : 768px) and (max-width: 1023px) {
+
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 8vh;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 50000;
+    }
+    
+    .Company-icon img{
+        padding-left: 0.2rem;
+        height: 7rem;
+    }
+    
+    .nav-icon {
+     padding: 2rem;
+     margin-right: -1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+    
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 14vh;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 50000;
+    }
+    
+    .Company-icon img{
+        padding-left: 0.2rem;
+        height: 7rem;
+    }
+    
+    .nav-icon {
+     padding: 1rem;
+     margin-right: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1320px) {
+    
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 14vh;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 50000;
+    }
+    
+    .Company-icon img{
+        padding-left: 0.2rem;
+        height: 7rem;
+    }
+    
+    .nav-icon {
+     padding: 1rem;
+     margin-right: 3rem;
+    }
+
+}
